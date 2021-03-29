@@ -1,3 +1,200 @@
-*{
-	
+
+html,body{
+	height: 100%;
+	width:100%;
+	font-family: Montserrat;
+font-style: normal;
 }
+.navbar{
+	padding: .8rem;
+}
+.navbar-nav li{
+	padding-right: 20px;
+
+}
+.nav-link{
+	font-size: 1em !important;
+}
+.nav-link:hover{
+	background-color: #005EAD;
+  
+}
+.carousel-item img{
+	height: 100%;
+	width:100%;
+}
+.carousel-caption{
+	position: absolute;
+	top:15%;
+	text-align: left;
+	color: #005EAD;
+}
+.carousel-caption h1{
+color: #005EAD;
+text-transform: uppercase;
+font-size: 150%;
+}
+.carousel-caption p{
+	position: absolute;
+	font-size: 100%;
+	color: #6A7081;
+}
+.Search1{
+	position: absolute;
+	top:30%;
+}
+	
+.search-box1 button{
+    position: absolute;
+left:15%;
+top:93%;
+/* Primary Color */
+text-align: center;
+background: #005EAD;
+color: #FFFFFF;
+}
+.search-box2 button{
+    position: absolute;
+color: #FFFFFF;
+left:39%;
+top: 93%;
+/* Primary Color */
+text-align: center;
+vertical-align: middle;
+background: #2AAEF8;
+}
+.gridd{
+	width:100%;
+    background: #C3C6CD;
+}
+.jumbotron{
+	padding: 1rem;
+	border-radius: 0;
+}
+.jumbotron button{
+	grid-gap: 20px;
+	letter-spacing: 0.05em;
+	top:30px;
+	color: #6A7081;
+}
+.display1{
+	color: #005EAD;
+	left: 20%;
+}
+.suggested-cars h5{
+	text-align: center;
+color: rgba(106, 112, 129, 0.4);
+
+
+}
+.suggested-cars p{
+	text-align: center;
+	color: #6A7081;
+}
+.abouts{
+	 background: #F8F8F9;
+}
+.abt{
+	background: #FFFFFF; 
+}
+.cars{
+	background: #DCDCDC;
+}
+.imgContainer{
+	margin: auto;
+	float: left;
+	padding: 10px;
+}
+.tot{
+	background: #005EAD;
+}
+
+.display5{
+	color: #FFFFFF;
+}
+.vec h4{
+	color: #FFFFFF;
+}
+.display4{
+	color:#005EAD;
+}
+.card-title{
+text-transform: uppercase;
+color: #005EAD;
+}
+.card-text{
+	text-transform: uppercase;
+	color: rgba(106, 112, 129, 0.8);
+}
+.subscribe{
+    width:100%;
+    background: #C3C6CD;
+    
+}
+.display21{
+	color: #FFFFFF;
+}
+.col-3{
+	 margin:auto;
+	top: 70%;
+}
+.social a{
+	font-size: 3em;
+	padding: 1rem;
+}
+.fa-facebook{
+	color: #3b5998;
+}
+.fa-twitter{
+	color: #00aced;
+}
+.fa-instagram{
+	color: #517fa4;
+}
+.fa-youtube{
+	color: #bb0000;
+}
+.fa-snapchat{
+	color: #FFFC00;
+}
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-instagram:hover,
+.fa-youtube:hover,
+.fa-snapchat:hover{
+	color: #d5d5d5;
+}
+.footer{
+	justify-content: space-between;
+	padding: 3rem;
+	margin: auto;
+}
+.f h5{
+	
+	color: #005EAD;
+	text-transform: uppercase;
+}
+.f span{
+	position: relative;
+	color: rgba(106, 112, 129, 0.8);
+
+}
+.f a{
+	text-decoration: none;
+	color: rgba(106, 112, 129, 0.8);
+
+}
+.bot{
+	background: #F8F8F9;
+}
+.display22{
+	position: absolute;
+	text-align: left;
+	color: rgba(106, 112, 129, 0.8);
+	text-transform: uppercase;
+}
+.bot p{
+	color: rgba(106, 112, 129, 0.8);
+	text-align: right;
+}
+

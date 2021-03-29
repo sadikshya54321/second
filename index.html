@@ -16,6 +16,7 @@
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
+
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav ml-auto">
                     <li class="nav-item">
@@ -74,18 +75,17 @@
 					<h1 class="display">FIND A CAR THAT SUITS 
                     YOU BEST</h1>
                     <p class="lead">You have always been our priority. Now you can order your Nissan and get it delivered to your doorstep.</p>
+                    <div class="Search1">
                     <button type="button" class="btn btn-primary btn-lg" > Search Now
-                     <img src="img/v2.png" alt="">
+                     
                     </button>
-                  <div class="search-box1">
-                <button type="button" class="btn-primary btn-lg">FIND YOUR CAR</button>
+                </div>
+                 <div class="search-box1">
+                <button type="button" class="btn btn-lg">FIND YOUR CAR</button>
 				</div>
             	<div class="search-box2" id="finance">
-                <button type="button" class="btn-primary btn-lg">FINANCE CALCULATOR</button>
+                <button type="button" class="btn btn-lg">FINANCE CALCULATOR</button>
             	</div> 
-            <!--<canvas id="myCanvas"></canvas>
-            <canvas1 id="myCanvas1"></canvas1>
-            <canvas2 id="myCanvas2"></canvas2>-->
 		</div>
 				</div>
 			<div class="carousel-inner">
@@ -96,10 +96,12 @@
 			</div>
 </div>
 		<!--GRID CONTAINER-->
-		<div class="container-fluid">
-			<div class="row grid">
+		<div class="container-fluid gridd">
+			
+			<div class="row jumbotron">
+				<div class="col-xs-6 col-sm-12 col-md-3 col-lg-3 ">
 				<div class="dropdown">
-  				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  				<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
    				 SELECT BRAND
  				 </button>
  				 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -108,8 +110,10 @@
  			   <li><a class="dropdown-item" href="#">MG</a></li>
  				 </ul>
 				</div>
+			</div>
+			<div class="col-xs-6 col-sm-12 col-md-3 col-lg-3 ">
 				<div class="dropdown">
-  				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  				<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
    				 SELECT MODEL
  				 </button>
  				 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -118,8 +122,10 @@
  			   <li><a class="dropdown-item" href="#">SUNNY</a></li>
  				 </ul>
 				</div>
+			</div>
+			<div class="col-xs-6 col-sm-12 col-md-3 col-lg-3 ">
 				<div class="dropdown">
-  				<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+  				<button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
    				 SELECT YEAR
  				 </button>
  				 <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
@@ -129,32 +135,37 @@
  				 </ul>
 				</div>
 			</div>
-		</div>	
-		<!-- SUGGESTED CARS-->
-		<!--<div class="container-fluid padding">
-			<div class="suggested padding">
-				
 			</div>
-			<hr class="my-4">
-		</div>-->
-		<div class="container">
-  <div class="row">
+		</div>
+		<!-- SUGGESTED CARS-->
+		<div class="container-fluid">
+  <div class="row suggested-cars">
+  	
   	<h2 class="display1 "> SUGGESTED CARS</h2>
     <div class="col-sm">
       <img  src="img/corolla.png" class="img-fluid" alt="">
+      <p>corolla 1.8L Xli HEV Executive </p>
+                 <h5>TOYOTA</h5>
     </div>
     <div class="col-sm">
       <img  src="img/kona.png" class="img-fluid" alt="">
+      <p>Kona 2.0L Basic
+                 </p>
+                 <h5>HYUNDAI</h5>
     </div>
     <div class="col-sm">
       <img  src="img/sunny.png" class="img-fluid" alt="">
+      <p>SUNNY SL + NAVI & AVM
+                 </p>
+                 <h5>NISSAN</h5>
     </div>
+</div>
   </div>
 </div>
 		<!--two column section-->
-		<div class="container-fluid padding">
-			<div class="row padding">
-				<div class="col-lg-6">
+		<div class="container-fluid padding abouts">
+			<div class="row padding about">
+				<div class=" container col-lg-6 abt">
 					<h2> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
 					<br>
 					<p>    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aspernatur minus at atque quas sapiente ipsum modi, facere, dolore magni ex architecto iure voluptates nam tempora sunt inventore, laudantium possimus itaque aperiam iste. </p>
@@ -164,59 +175,61 @@
 				</div>
 				
 				
-				<div class="col-lg-6">
+				<div class="cars col-lg-6">
 					<img src="img/red.png" class="img-fluid">
 				</div>
 			</div>
 		</div>
 		<!--brand logo-->
-		<div class="container">
-  <div class="row row-cols-10">
-    <div class="col-sm"> <img src="img/nissan.png" alt="">
+		<div class="container-fluid">
+  <div class="row row-cols-12 brand ">
+    <div class=" imgContainer col-sm"> <img src="img/nissan.png" alt="">
     </div>
-    <div class="col-sm"><img src="images/mitsubishi.png" alt=""></div>
-    <div class="col-sm">
+    <div class="imgContainer  col-sm"><img src="images/mitsubishi.png" alt=""></div>
+    <div class="imgContainer col-sm">
     	<img src="img/MC.png" alt="">
     </div>
-    <div class="col-sm">
+    <div class="imgContainer  col-sm">
     <img src="img/sujuki.png" alt="">	
     </div>
-    <div class="col-sm">
+    <div class="imgContainer  col-sm">
     	<img src="img/v.png" alt="">
     </div>
-    <div class="col-sm">
+    <div class="imgContainer  col-sm">
     	<img src="img/mazda.png" alt=""></div>
-    <div class="col-sm">
+    <div class=" imgContainer col-sm">
     	<img src="img/kia.png" alt="">
     </div>
-    <div class="col-sm">
+    <div class=" imgContainer col-sm">
     	<img src="img/hyundai.png" alt="">
     </div>
-    <div class="col-sm">
+    <div class=" imgContainer col-sm">
     	<img src="img/honda.png" alt="">
     </div>
-    <div class="col-sm">
+    <div class=" imgContainer col-sm">
     	<img src="img/toyota.png" alt="">
     </div>
   </div>
 </div>
 <!--VEHICAL TYPE-->
-<div class="container">
-  <div class="row">
+<div class="tot">
+<div class="container-fluid ">
+  <div class="row vehicletype">
   	<h2 class="display5 "> VEHICLE TYPE</h2>
-    <div class="col-sm">
+    <div class="col-sm vec">
       <img  src="img/sedan.png" class="img-fluid" alt="">
       <h4>SEDAN</h4>
-    </div>
-    <div class="col-sm">
+          </div>
+    <div class="col-sm vec">
       <img  src="img/suv.png" class="img-fluid" alt="">
       <h4>SUV/MPU</h4>
     </div>
-    <div class="col-sm">
+    <div class="col-sm vec">
       <img  src="img/commercial.png" class="img-fluid" alt="">
       <h4>COMMERCIAL</h4>
     </div>
   </div>
+</div>
 </div>
 <!--OUR OFFER-->
 <div class="container-fluid padding">
@@ -256,9 +269,9 @@
 	</div>
 </div>
 <!--FORM-->
-<div class="subscribe">
+<div class=" container-fluid padding subscribe">
 	<div class="row">
-	<h5 class="col-3">GET NEW OFFERS
+	<h5 class="display21 col-3">GET NEW OFFERS
 TO YOUR INBOX</h5>
 
 	<div class="col-3">
@@ -276,7 +289,7 @@ TO YOUR INBOX</h5>
 </div>
 <!--footer-->
 <footer>
-	<div class="container-fluid padding">
+	<div class="container-fluid padding f">
 		<div class="row text-center">
 			<div class="col-md-3">
 				<div>
@@ -290,35 +303,35 @@ TO YOUR INBOX</h5>
 				<a href="#"> <i class="fab fa-snapchat"></i></a>
 			</div>
 			</div>
-			<div class="col-md-2">
+			<div class="col-md-3">
 				<h5>CONTACT</h5>
-				<span>Phone:&nbsp;+1-001233456 </span>
+				<span>Phone:&nbsp;+1-001233456 </span><br>
                         <span>Email:&nbsp; info@website.com</span>
 			</div>
 			<div class="col-md-2">
 				<h5>COMPANY</h5>
-				<span><a href="#">ABOUT US </a></span>
-                           <span>
-                            <a href="#">FIND A VEHICLE</a></span>
-                            <span>
-                            <a href="#">FINANCE CALCULATOR</a></span>
+				<a href="#">ABOUT US </a>
+				<br>
+                <a href="#">FIND A VEHICLE </a>
+                <br>
+                <a href="#">FINANCE CALCULATOR</a><br>
 			</div>
 			<div class="col-md-2">
 				<h5>SHOWROOM</h5>
-				<a href="#">KHURAIS ROAD</a>
-                            <a href="#">EASTERN RING</a>
-                            <a href="#">ONAIZAH</a>
+				<a href="#">KHURAIS ROAD</a><br>
+                <a href="#">EASTERN RING</a><br>
+                <a href="#">ONAIZAH</a>
 			</div>
 			<div class="col-md-2">
 				<h5>CUSTOMER CARE</h5>
-				<a href="#">CONTACT</a>
-                            <a href="#">COMPLAINT</a>
-                            <a href="#">FEEDBACK</a>
+				<a href="#">CONTACT</a><br>
+                <a href="#">COMPLAINT</a><br>
+                <a href="#">FEEDBACK</a>
 			</div>
-			<div class="col-10">
-				<h5>&copy; 2020 auto zone</h5>
+			<div class="container col-10 bot">
+				<h4 class=" display22">&copy; 2020 auto zone</h4>
 
-                    PRIVACY POLICY  |  TERMS & CONDITIONS
+                   <p> PRIVACY POLICY  |  TERMS & CONDITIONS</p>
 			</div>
 		</div>
 	</div>
